@@ -95,13 +95,24 @@ input{
 }
 .user-card{
     display: flex;
+    padding: 0px 7px;
 }
 .userimg{
     margin-block: auto;
-    padding: 0px 6px;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.userimg img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
 }
 #letra{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 6px;
+    cursor: pointer;
 }
 #comentarios{
     padding: 0px 16px;
