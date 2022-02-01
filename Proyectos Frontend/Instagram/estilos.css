@@ -1,0 +1,111 @@
+body{
+    background-color: #FAFAFA;
+}
+header{
+    background-color:white;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    height: 30px;
+    padding: 0 20px;
+    display: flex;
+    width: 100%;
+    height: var(--desktop-nav-height);
+    align-items: center;
+    max-width: 1400px;
+    justify-content: center;
+}
+.barra_derecha{
+    display: flex;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 25%;
+    margin: 10px auto;
+}
+.card-img>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.icon{
+    border: none;
+    color:white;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor:pointer;
+    max-width: 100%;
+    max-height: 100%;
+}
+#heart{
+    background:url();
+}
+.logo{
+    -webkit-box-align: center;
+    height: var(--desktop-nav-height);
+    padding: 0px 70px 0px 70px;
+}
+.buscador{
+    margin: 0px auto;
+}
+input{
+    background-color:#EFEFEF;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+.icons{
+    -webkit-box-align: center;
+    height: var(--desktop-nav-height);
+}
+#buscar{
+    padding: 0px 16px;
+    border-radius: 35px;
+    border-style: none;
+    width: 268px;
+    height: 36px;
+}
+.aaaaa{
+    padding: 12px 0px;
+}
+.nav{
+    padding: 0px 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.icon{
+    padding: 0px 10px;
+    border-radius: 10px;
+    float: left;
+}
+.card-content{
+    display: flex;
+}
+.btn{
+    padding: 6px 4px 8px;
+}
+.head{
+    width: 100%;
+}
+.description{
+    padding: 6px 12px 8px;
+}
+.user-card{
+    display: flex;
+}
+.userimg{
+    margin-block: auto;
+    padding: 0px 6px;
+}
+#letra{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#comentarios{
+    padding: 0px 16px;
+    border-style: none;
+    width: 261px;
+    height: 36px;
+}
