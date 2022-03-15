@@ -1,0 +1,155 @@
+body{
+    font-family: 'Spartan', sans-serif;
+    font-size: 32px;
+    background-color: hsl(0, 0%, 90%);
+    display: block;
+    margin: 0 auto;
+}
+
+.content{
+    color:hsl(60, 10%, 19%);
+    padding-top: 10px;
+    padding-left: 500px;
+    padding-right: 500px; 
+    display: grid;
+    grid-template-rows: 100px 80px 450px auto;
+    grid-row-gap: 20px;
+    text-align: center;
+}
+h3,h4,h5{
+    margin: 15px 0px;
+    font-size: 15px;
+}
+.content_div-slider{
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+}
+#slider{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 60%;
+    border-radius: 15px;  
+    background: hsl(0, 5%, 81%);
+    outline: none;
+    opacity: 0.7;
+}
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 60%; 
+    background: #E84122;
+    cursor: pointer;
+}
+.content_div-header{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items:flex-end;
+    width: 100%;
+    gap: 10px;
+}
+.content_p-theme{
+    font-size: 14px;
+    text-align: right;
+}
+.content_p-calc{
+    font-size: 20px;
+    text-align: left;
+    grid-column:span 2;
+    gap: 20px;
+}
+.content_div-panel{
+    background-color:  hsl(0, 0%, 93%);
+    display: flex;
+    align-items: center;
+    text-align: right;
+    border-radius: 15px;
+}
+#valor{
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    width: 100%;
+}
+.content_div-keyboard-content{
+    background-color: hsl(0, 5%, 81%);
+    border-radius: 15px;
+}
+.content_div-keyboard{
+    width: auto;
+    height: 88%;
+    margin: 25px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.button{
+    font-family: 'Spartan', sans-serif;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    
+}
+.content_button-number,.content_button-op,.content_button-point{
+    background-color: hsl(45, 7%, 89%);
+    color:  hsl(60, 10%, 19%);
+    border: hsl(45, 7%, 89%);
+    box-shadow:  0px 2px 0px 0px hsl(35, 11%, 61%);
+    transition: box-shadow.4s;
+}
+.content_button-number:hover,.content_button-op:hover,.content_button-point:hover{
+    filter: brightness(1.1);
+    box-shadow:  0px 2px 0px 0px hsl(35, 11%, 61%);
+}
+
+.content_button-reset,.content_button-delet{
+    background-color: hsl(185, 42%, 37%);
+    box-shadow:  0px 2px 0px 0px  hsl(185, 58%, 25%);
+    border: hsl(185, 42%, 37%);
+    transition: box-shadow.3s;
+}
+.content_button-reset:hover,.content_button-delet:hover{
+    filter: brightness(1.2);
+    box-shadow:  0px 2px 0px 0px  hsl(185, 58%, 25%);
+}
+.content_button-equal{
+    box-shadow:  0px 2px 0px 0px hsl(25, 99%, 27%);
+    background-color: hsl(25, 98%, 40%);
+    border: hsl(25, 98%, 40%);
+    transition: box-shadow.3s;
+}
+.content_button-equal:hover{
+    filter: brightness(1.5);
+    box-shadow:  0px 2px 0px 0px hsl(25, 99%, 27%);
+}
+.content_button-number:active,.content_button-op:active,.content_button-point:active,
+.content_button-reset:active,.content_button-delet:active,.content_button-equal:active{
+    filter:brightness(0.8)
+}
+#reset{
+    grid-column: 2 span;
+}
+#igual{
+    grid-column: 2 span;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width:375px) {
+    .content{
+        padding: 0 20px;
+    }
+}

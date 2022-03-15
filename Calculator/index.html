@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+  <link id='estilos' rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="content">
+    <!-- cabezera -->
+    <div class="content_div-header" >
+      <h1 class="content_p-calc">
+        calc
+      </h1>
+      <h2 class="content_p-theme">
+        THEME
+      </h2>
+      <div class="content_div-slider">
+        <h3 class="content_p-count-slider-1">1</h3>
+        <h4 class="content_p-count-slider-2">2</h4>
+        <h5 class="content_p-count-slider-3">3</h5>
+        <input id="slider" type="range" min="1" max="3" step="1" value="1">
+      </div>
+    </div>
+    <div class="content_div-panel">
+      <p id="valor">0</p>
+    </div>
+    <div class="content_div-keyboard-content">
+      <div class="content_div-keyboard">
+        <button data-button="7" class="button content_button-number" >7</button>
+        <button data-button="8" class="button content_button-number">8</button>
+        <button data-button="9" class="button content_button-number">9</button>
+        <button data-button="del" class="button content_button-delet">DEL</button>
+        <button data-button="4" class="button content_button-number">4</button>
+        <button data-button="5" class="button content_button-number">5</button>
+        <button data-button="6" class="button content_button-number">6</button>
+        <button data-button="+" class="button content_button-op">+</button>
+        <button data-button="1" class="button content_button-number">1</button>
+        <button data-button="2" class="button content_button-number">2</button>
+        <button data-button="3" class="button content_button-number">3</button>
+        <button data-button="-" class="button content_button-op">-</button>
+        <button data-button="." class="button content_button-point">.</button>
+        <button data-button="0" class="button content_button-number">0</button>
+        <button data-button="/" class="button content_button-op">/</button>
+        <button data-button="x" class="button content_button-op">x</button>
+        <button data-button="reset" id="reset" class="button content_button-reset">RESET</button>
+        <button data-button="igual" id="igual" class="button content_button-equal">=</button>
+      </div>
+    </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Alejandro Riveros</a>.
+    </div>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+    </style>
+  </div>
+  <script src="DOM.js"></script>
+  <script src="operaciones.js"></script>
+</body>
+</html>
