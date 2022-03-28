@@ -1,0 +1,56 @@
+[
+    {
+      "precio": 10000,
+      "id": 1,
+      "title": "Hamburguesa",
+      "img": "imgRestaurant/burger.png"
+    },
+    {
+      "precio": 7500,
+      "id": 2,
+      "title": "Hot dog",
+      "img": "imgRestaurant/hot dog.png"
+    },
+    {
+      "precio": 8000,
+      "id": 3,
+      "title": "Pizza",
+      "img": "imgRestaurant/pizza.png"
+    },
+    {
+      "precio": 15000,
+      "id": 4,
+      "title": "Ramen",
+      "img": "imgRestaurant/ramen.png"
+    },
+    {
+      "precio": 20000,
+      "id": 5,
+      "title": "KFC",
+      "img": "imgRestaurant/kfc.png"
+    },
+    {
+      "precio": 12000,
+      "id": 6,
+      "title": "Tacos",
+      "img": "imgRestaurant/tacos.png"
+    },
+    {
+      "precio":25000,
+      "id":8,
+      "title":"Sushi",
+      "img":"imgRestaurant/sushi.png"
+    },
+    {
+      "precio":14000,
+      "id":9,
+      "title":"Arroz Chino",
+      "img":"imgRestaurant/arroz chino.png"
+    },
+    {
+      "precio":7000,
+      "id":10,
+      "title":"Churros",
+      "img":"imgRestaurant/churros.png"
+    }
+  ]

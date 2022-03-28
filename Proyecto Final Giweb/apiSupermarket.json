@@ -1,0 +1,75 @@
+[
+    {
+      "precio": 8000,
+      "id": 1,
+      "title": "Bananos x6",
+      "img": "imgSupermarket/banano.png"
+    },
+    {
+        "precio": 1433 ,
+        "id": 2 ,
+        "title": "Cebolla Cabezona Unidad",
+        "img": "imgSupermarket/cebolla cabezona.png"
+    },
+    {
+        "precio": 3000,
+        "id": 3,
+        "title": "Papa / libra",
+        "img": "imgSupermarket/Papa.png"
+      },
+      {
+        "precio": 1075,
+        "id": 4,
+        "title": "Agucate Hass /u",
+        "img": "imgSupermarket/Aguacate Hass.png"
+      },
+      {
+        "precio": 5000,
+        "id": 5,
+        "title": "Fresas/500g",
+        "img": "imgSupermarket/fresas.png"
+      },
+      {
+        "precio": 4000,
+        "id": 6,
+        "title": "Mandarina/500g",
+        "img": "imgSupermarket/mandarina.png"
+      },
+      {
+        "precio": 1500,
+        "id": 7,
+        "title": "Manzana Verde /u",
+        "img": "imgSupermarket/Manzana verde.png"
+      },
+      {
+        "precio": 1550,
+        "id": 8,
+        "title": "Naranja /libra",
+        "img": "imgSupermarket/naranja.png"
+      },
+      {
+        "precio": 2600,
+        "id": 9,
+        "title": "Tomate /libra",
+        "img": "imgSupermarket/Tomate.png"
+      },
+      {
+        "precio": 14000,
+        "id": 10,
+        "title": "Huevos AA cubeta",
+        "img": "imgSupermarket/Huevos.webp"
+      },
+      {
+        "precio": 20000,
+        "id": 11,
+        "title": "Leche deslactosada",
+        "img": "imgSupermarket/Leche.webp"
+      },
+      {
+        "precio": 6000,
+        "id": 12,
+        "title": "Atún",
+        "img": "imgSupermarket/Atun.webp"
+      }
+
+  ]

@@ -1,0 +1,56 @@
+[
+    {
+        "precio":13000,
+        "id":1,
+        "title":"Sixpack Aguila",
+        "img":"imgLicor/aguila.webp"
+    },
+    {
+        "precio":21000,
+        "id":2,
+        "title":"Aguardiente antioqueño",
+        "img":"imgLicor/antioqueño.webp"
+    },
+    {
+        "precio":17000,
+        "id":3,
+        "title":"Sixpack budweiser",
+        "img":"imgLicor/budwaiser.webp"
+    },
+    {
+        "precio":18000,
+        "id":4,
+        "title":"Sixpack club colombia dorada",
+        "img":"imgLicor/club.webp"
+    },
+    {
+        "precio":24000,
+        "id":5,
+        "title":"Cerveza Corona",
+        "img":"imgLicor/corona.webp"
+    },
+    {
+        "precio":8900,
+        "id":6,
+        "title":"Marlboro",
+        "img":"imgLicor/marlboro.webp"
+    },
+    {
+        "precio":18000,
+        "id":7,
+        "title":"Aguardiente Nectar",
+        "img":"imgLicor/nectar.webp"
+    },
+    {
+        "precio":15000,
+        "id":8,
+        "title":"Sixpack Poker",
+        "img":"imgLicor/poker.webp"
+    },
+    {
+        "precio":32000,
+        "id":9,
+        "title":"Vino Tinto",
+        "img":"imgLicor/vino.webp"
+    }
+]
