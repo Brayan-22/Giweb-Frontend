@@ -1,6 +1,11 @@
 # Carrito de compras - Proyecto Final
 
+Framework utilizado:
+-Bootstrap 5
 
+Uso de:
+-HTML/CSS
+-JavaScript basico
 
 ## Previsualización:
 
