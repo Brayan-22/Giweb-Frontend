@@ -4,25 +4,54 @@
     color:  white;
     border: hsl(30, 25%, 89%);
     box-shadow:  0px 2px 0px 0px hsl(0, 100%, 50%);
-    transition: box-shadow.8s;
+    transition: box-shadow=.5s;
 }
 
 .btn-comprar:hover{
     filter: brightness(1.1);
 }
 .btn-comprar:active{
-    filter:brightness(0.8)
+    filter:brightness(0.8);
 }
 
 .btn-cambio{
     color: rgb(28, 50, 151);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:larger;
-    transition: box-shadow.8s;
+    transition: box-shadow=.8s;
 }
 .btn-cambio:hover{
     filter: brightness(1.5);
 }
 .btn-cambio:active{
     filter: brightness(0.5);
+}
+
+.btn-eliminar{
+    border-radius: 7px;
+    background-color: hsla(263, 47%, 54%, 0.63);
+    color:  white;
+    border: hsl(30, 25%, 89%);
+    box-shadow:  0px 2px 0px 0px hsl(265, 100%, 64%);
+    transition: box-shadow=.5s;
+}
+.btn-eliminar:hover{
+    filter: brightness(1.1);
+}
+.btn-eliminar:active{
+    filter:brightness(0.8);
+}
+
+.content_div-panel{
+    background-color: hsl(0, 18%, 97%);
+    display: flex;
+    align-items:center;
+    text-align: center;
+    border-radius: 15px;
+}
+.valor{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
 }
