@@ -13,7 +13,7 @@ Uso de:
 ## Previsualización:
 
 
-[![carrito.png](https://i.postimg.cc/BnRzdK7V/carrito.png)](https://postimg.cc/pmYkjpHf)
+[![carrito.png](https://i.postimg.cc/vBxZ67yM/carrito.png)](https://postimg.cc/qh0TP3gZ)
 
 
 ## Desarrollador👨‍💻
