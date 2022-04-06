@@ -66,30 +66,8 @@ const pintarCards= data=>{
         templateCard.querySelector('img').setAttribute("src",producto.img)
         templateCard.querySelector('.btn-comprar').setAttribute("data-button",'comprar')
         templateCard.querySelector('.btn-eliminar').setAttribute("data-button",'eliminar')
-        templateCard.querySelector('.valor').setAttribute("id","valor"+producto.title)
-        templateCard.querySelector('.valor').textContent='0'
         const clone = templateCard.cloneNode(true)
         fragment.appendChild(clone)
     });
     items.appendChild(fragment)
 }
-
-
-//const value=document.querySelector('#valor')
-//var cantidad=parseInt(value.textContent)
-//const buttonsGroup2=document.getElementById('grupoBotonesCompras')
-//buttonsGroup2.addEventListener('click',(e)=>{
-//    let caso=e.target.dataset.button;
-//    try {
-//        if(caso=='comprar' && cantidad>=0){
-//            cantidad+=1
-//        }else if(caso=='eliminar' && cantidad>0){
-//            cantidad-=1
-//        }else{
-//            cantidad=0
-//        }
-//        value.textContent=cantidad.toString()
-//        console.log(value.textContent);
-//    } catch (error) {
-//    }
-//})
